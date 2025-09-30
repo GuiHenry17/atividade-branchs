@@ -1,2 +1,5 @@
 const usuarios = ["Ana", "Carlos"];
-module.exports = usuarios;
+function listarUsuarios() {
+    return usuarios;
+}
+module.exports = { usuarios, listarUsuarios };
