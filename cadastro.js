@@ -1,3 +1,3 @@
 function cadastro(nome, email) {
-    return { nome, email };
+    return { id: Date.now(), nome, email };
 }
